@@ -1,7 +1,10 @@
 <#import "template.ftl" as layout>
 <@layout.registrationLayout displayInfo=false displayWide=false; section>
     <#if section = "header">
-        ${msg("doLogIn")}
+        <header class="pt-2">
+            <h3 style="font-weight: 700">${msg("doLogIn")}</h3>
+            <h6>Login to your account</h6>
+        </header>
     <#elseif section = "form">
     <div id="kc-form">
       <div id="kc-form-wrapper">

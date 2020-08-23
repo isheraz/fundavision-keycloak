@@ -1,7 +1,10 @@
 <#import "template.ftl" as layout>
     <@layout.registrationLayout; section>
         <#if section="header">
-            ${msg("doLogIn")}
+            <header class="pt-2">
+                <h3>${msg("doLogIn")}</h3>
+                <h6>Login to your account</h6>
+            </header>
             <#elseif section="form">
                 <form id="kc-otp-login-form" class="${properties.kcFormClass!}" action="${url.loginAction}"
                     method="post">

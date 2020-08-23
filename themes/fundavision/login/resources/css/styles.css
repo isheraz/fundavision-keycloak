@@ -1,0 +1,17 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+input[type='text'], input[type='password']{
+  width: 100%;
+  border-radius: 30px;
+  padding: 6px 12px;
+  border: transparent;
+  outline:  0;
+  background: #e6e6e6;
+  margin-bottom: 15px;
+}
+
+h3,h6 {
+  text-align:center;
+}
